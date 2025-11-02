@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 247, 239);
+    color: #222;
+}
+
+.navbar {
+    background-color: #115f34;
+    color: rgb(241, 241, 241);
+    padding: 15px 0;
+    text-align: center;
+    text-shadow: 0 0 10px #000000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: rgb(240, 250, 97);
+    text-decoration: none;
+    font-weight: bold;
+    background-color:none;
+}
+
+.navbar a:hover {
+    color: #6fbe8b;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gambaBioIndex {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.gambaBiodata {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+footer {
+    background-color: #122017;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.biodata-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+
+.biodata-table th, .biodata-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.biodata-table th {
+    background-color: #7ACB9E;
+    color: black;
+    width: 200px;
+}
